@@ -21,6 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Jest and Supertest
 #### Backend: `npm test`
 ## Comments:
-#### For Test: Has not add test files for frontend test, this is similar for functional test with backend. If need end to end test, I need to import new test tools.
-#### For Database: I disconnect the database, but if need it , I can supply .env configuration files. So can't do demonstrate for signup new user without database.
+#### Test: Has not add test files for frontend test, this is similar for functional test with backend. If need end to end test, I need to import new test tools.
+#### Database:There is no database configuration, so can't do demonstrate for some features with DB.
 
