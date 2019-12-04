@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-block-ui/style.css';
 
 
-axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'https://demo-drillholes-backend.herokuapp.com/v1/' : 'http://localhost:5000/v1';
+axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'https://demo-drillholes-backend.herokuapp.com/v1/' : 'http://localhost:4500/v1';
 const baseURL = process.env.PUBLIC_URL || '';
 
 ReactDOM.render(
